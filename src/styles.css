@@ -1,1 +1,176 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+    background: black !important;
+    font-family: "Luna";
+  }
+/*sidebar*/
+.sidebar_menu {
+  top:0px;
+  position: fixed;
+  width: 300px;
+  margin-left: 0px;
+  overflow: hidden;
+  height: 100vh;
+  max-height: 100vh;
+  background-color: rgba(17, 17, 17, 0.9);
+  opacity: 0.9;
+  transition: 0.9;
+  z-index: 10000000;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-times {
+  right: 10px;
+  top: 10px;
+  opacity: 0.7;
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-times:hover {
+  opacity: 1;
+}
+
+.boxed_item h1 {
+  font-weight: 200;
+  padding: 10px 20px;
+  border: solid 2px white;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 20px;
+  letter-spacing: 0.1em;
+}
+
+.logo_bold {
+  font-weight: 800;
+}
+
+.boxed_item h2 {
+  color: white;
+  font-weight: 200;
+  font-size: 15px;
+  padding: 5px 0;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 20px;
+  letter-spacing: 0.2em;
+}
+
+.navigation_selection {
+  margin: 20px 0px;
+  display: block;
+  width: 200px;
+  margin-left: 40px;
+}
+
+.navigation_item {
+  font-weight: 200;
+  color: white;
+  padding: 12px 0px;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: #D8D8D8;
+  border-bottom: solid 1px #D8D8D8;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.hide {
+  margin-left: -300px;
+}
+
+.hideToggle {
+  margin-right: -300px;
+}
+
+.navbar-nav {
+  transition: all 0.3s ease-in-out;
+}
+
+/* end sidebar*/
+.bg-dark {
+  background-color: black !important;
+  padding-bottom: 30px;
+}
+
+nav {
+  height: 120px;
+  margin-bottom: 0px;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+}
+
+.logo img {
+  width: auto;
+  height: 80px;
+  padding-top: 0px;
+  margin-top: 0px;
+  vertical-align: middle;
+}
+
+.logo h1 {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar h3 {
+  margin-right: 20px;
+}
+
+.fa-bars {
+  color: #6c757d;
+}
+
+.fa-bars:hover {
+  color: white;
+  transition: 0.9s;
+}
+
+.loading {
+  width: 100%;
+  height: 100vh;
+  margin-top: 0%;
+  text-align: center;
+  line-height: 100vh;
+  background-color: black;
+}
+
+.loading span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1em;
+}
+
+.loading span h1 {
+  color: white;
+}
+
+.mainScreen img {
+  max-width: 100%;
+  height: auto;
+}
+
+.setLogo {
+  display: none;
+}
