@@ -106,8 +106,8 @@ body {
 }
 
 /* end sidebar*/
-.bg-dark {
-  background-color: black !important;
+.bg-custom {
+  background:rgba(17, 17, 17, 1) !important;
   padding-bottom: 30px;
 }
 
@@ -174,3 +174,18 @@ nav {
 .setLogo {
   display: none;
 }
+
+/*slider animation*/
+.slide{
+  display:inline-block;
+  margin-right:100px !important;
+}
+.slider{
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+}
+
+/*end slider animation*/

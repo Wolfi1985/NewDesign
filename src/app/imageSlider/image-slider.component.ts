@@ -14,5 +14,10 @@ export class ImageSliderComponent implements OnInit {
     ngOnInit() {
 
     }
+    public slideLeft(){
 
+    }
+    public slideRight(){
+
+    }
 }
