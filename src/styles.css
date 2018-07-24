@@ -178,7 +178,6 @@ nav {
 /*slider animation*/
 .slide{
   display:inline-block;
-  margin-right:100px !important;
 }
 .slider{
   transition: all 1s ease-in-out;
